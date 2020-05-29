@@ -2,20 +2,50 @@
 <html>
     <head> <!--invisible to user-->
         <meta charset="utf-8">
-        <meta name="author" content="Nomad Coders"> <!--페이지가 검색될 때 보일 수 있음-->
-        <meta name="description" content="Welcome to my Kakao Clone">
-        <title>This is my title</title>   
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--페이지가 검색될 때 보일 수 있음-->
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
+        <title>Selectors and Pseudo Selectors</title>   
+    <style>
+        /* input[type="password"] {
+            background-color: black;
+        } /*pseudo selector*/
+        /*input[type="submit"] {
+            background-color: red;
+        } */
+        .box{
+            background-color: green;                       
+            border: 1px solid yellow;
+        }
+        .box:hover{
+            background-color: pink;
+        }
+        .box:active{
+            background-color: black;
+        }
+        /* .box:last-child{
+            background-color: pink;
+        }
+        .box:nth-child(3n){
+            background-color: brown;
+        } */
+    </style>
+    
     </head> <!--information is on the head-->
     <body>
-        <section>
-            <header id="headerNumberOne" class="defaultHeader">
-                <h1>Title of a section</h1>
-            </header>
-        </section>
-        <div>
-            <header id="differentHeader" class="defaultHeader">
-                title of the unknown container
-            </header>
-        </div>
+        <span class="box">lalalalal</span>
+            <!-- <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box">
+                <input type="password">
+                <input type="submit">
+            </div> -->
+        
     </body> <!--content is on the body-->
 </html>
